@@ -1,0 +1,6 @@
+$accent-color: {{ .Site.Params.style.primaryColor | default "#ff5555" }};
+$background-color: {{ .Site.Params.style.backgroundColor | default "#f8f8f2" }};
+$text-color: {{ .Site.Params.style.textColor | default "#44475a" }};
+$inline-code: {{ .Site.Params.style.inlineCode | default "#268bd2" }};
+
+@import 'base';

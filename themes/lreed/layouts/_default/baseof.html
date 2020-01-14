@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang='{{ $.Site.LanguageCode | default "en-us" }}'>
+
+{{ partial "head.html" . }}
+
+<body>
+    <div class="content">
+        <header class="app-header container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <a href="{{ .Site.BaseURL }}">{{ $.Site.Title }}</a>
+                </div>
+                <div class="col-6 social-icons text-right">
+                    <span>
+                        {{ if isset .Site.Params.Social "github" }}
+                        <a href="https://github.com/{{ .Site.Params.Social.Github }}" target="_">github</i></a>
+                        {{ end }}
+                        {{ if isset .Site.Params.Social "twitter" }}
+                        <a href="https://twitter.com/{{ .Site.Params.Social.Twitter }}" target="_">twitter</a>
+                        {{ end }}
+                        {{ if isset .Site.Params.Social "linkedin" }}
+                        <a href="https://linkedin.com/in/{{ .Site.Params.Social.Linkedin }}" target="_">linkedin</a>
+                        {{ end }}
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <p>{{ $.Site.Params.description | default "Change site [params] in config.toml to populate this description." }}
+                </p>
+            </div>
+        </header>
+        <main class="app-container">
+            {{ block "main" . }}
+            {{ .Content }}
+            {{ end }}
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "lreed"
+license = "MIT"
+licenselink = "https://github.com/lucasreed/hugo-lreed/blob/master/LICENSE"
+description = "minimal theme for lreed.net"
+homepage = "https://github.com/lucasreed/hugo-lreed"
+tags = ["blog", "minimalistic", "minimal", "responsive"]
+features = []
+min_version = 0.62
+
+[author]
+  name = "lucasreed"
+  homepage = "https://lreed.net"

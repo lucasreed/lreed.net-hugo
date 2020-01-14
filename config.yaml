@@ -1,0 +1,24 @@
+theme: "lreed"
+paginate: 10
+baseURL: "https://lreed.net/"
+languageCode: "en"
+title: "Luke Reed"
+copyright: "&copy; 2020. All rights reserved."
+publishdir: "lucasreed.github.io"
+googleAnalytics: "UA-41029335-5"
+summaryLength: 30
+markup:
+  highlight:
+    codeFences: true
+    lineNos: true
+    lineNumbersInTable: true
+    style: "monokai"
+params:
+  author: "Luke Reed"
+  description: "Site Reliability Engineer"
+  social:
+    github: "lucasreed"
+    twitter: "localhost_luke"
+    linkedin: "luke-reed-0125"
+  # style:
+  #   primaryColor: "orangered"
