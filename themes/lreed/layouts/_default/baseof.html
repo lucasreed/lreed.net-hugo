@@ -31,9 +31,9 @@
         </header>
         <main class="app-container">
             {{ block "main" . }}
-            {{ .Content }}
             {{ end }}
         </main>
+        {{ partial "footer.html" . }}
     </div>
 </body>
 

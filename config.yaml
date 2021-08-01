@@ -3,7 +3,6 @@ paginate: 10
 baseURL: "https://lreed.net/"
 languageCode: "en"
 title: "Luke Reed"
-copyright: "&copy; 2021. All rights reserved."
 publishdir: "public"
 googleAnalytics: "UA-41029335-5"
 summaryLength: 30
@@ -12,10 +11,11 @@ markup:
     codeFences: true
     lineNos: true
     lineNumbersInTable: true
-    style: "monokai"
+    style: "dracula"
 params:
   author: "Luke Reed"
   description: "Site Reliability Engineer"
+  copyright: "Copyright Luke Reed 2021. All rights reserved."
   social:
     github: "lucasreed"
     twitter: "localhost_luke"
