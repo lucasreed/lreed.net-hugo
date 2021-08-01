@@ -3,7 +3,7 @@ paginate: 10
 baseURL: "https://lreed.net/"
 languageCode: "en"
 title: "Luke Reed"
-copyright: "&copy; 2020. All rights reserved."
+copyright: "&copy; 2021. All rights reserved."
 publishdir: "public"
 googleAnalytics: "UA-41029335-5"
 summaryLength: 30
