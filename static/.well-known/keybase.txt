@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lukereed
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lreed.net
+  * I am lukereed (https://keybase.io/lukereed) on keybase.
+  * I have a public key ASAO4p9fhCN1ig8ZYXa1kMjkSzuQrZ94N3QSWChS1tcOnQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012046d5fa992eb570bbfaf95e6b24800bd7d50920551bf22d0b4ee1028f8599afc60a",
+      "host": "keybase.io",
+      "kid": "01200ee29f5f8423758a0f196176b590c8e44b3b90ad9f78377412582852d6d70e9d0a",
+      "uid": "0acb3cdfb0a32224c7b0339d0257fd19",
+      "username": "lukereed"
+    },
+    "merkle_root": {
+      "ctime": 1627945271,
+      "hash": "d413dbc396a04a73b6a9ef0fc6203cb1698fac1114c5083f822e8f7a5a01523a5aa8420906382e04155266c190d01924a5ff6ca0c7843bc9314459a12d0f3616",
+      "hash_meta": "198e00727916d1d1c054027de5087b81ba568eec702fd54053828d05968d6417",
+      "seqno": 20492620
+    },
+    "service": {
+      "entropy": "qGEIGV+fp5WapgKTnfiOhrVO",
+      "hostname": "lreed.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1627945292,
+  "expire_in": 504576000,
+  "prev": "4da3156897f2a67c2238a38d326fdd2a85982cae857f81db1a69bfad3a850418",
+  "seqno": 68,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDuKfX4QjdYoPGWF2tZDI5Es7kK2feDd0ElgoUtbXDp0Kp3BheWxvYWTESpcCRMQgTaMVaJfypnwiOKONMm/dKoWYLK6Ff4HbGmm/rTqFBBjEIF9lHzpu9am8vHVHMOBuOmoyRAhTBODZDOPu63kBs+XOAgHCo3NpZ8RAKpRpFwgUgJ351rOX1PpSaveOoUwSUGU6M2Y+nJXy67VB7mEQR0Z4SxAi31QhmprAMu2kwB71AX6n5OmF8u7+D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEypM//rotnXxBG34ogjjD2k1YpOKSdXJG7PlsJYsU/Qo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukereed
+
+==================================================================
