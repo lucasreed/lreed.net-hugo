@@ -1,7 +1,6 @@
 {{ define "main" }}
   <article>
     <h2>{{ .Title }}</h2>
-    <p>Posts listed here are will not be updated and the information therein may be out of date or innacurate.</p>
     <div class="posts-list">
       {{ range where .Site.RegularPages "Section" "post" }}
         <div class="posts-list-item">
