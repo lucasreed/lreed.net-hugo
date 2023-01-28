@@ -2,7 +2,7 @@ BUILD_DIR ?= "public"
 
 all: serve
 
-build:
+build: clean
 	hugo -DEF
 
 serve:

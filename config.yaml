@@ -15,10 +15,9 @@ markup:
 params:
   author: "Luke Reed"
   description: "Site Reliability Engineer"
-  copyright: "Copyright Luke Reed 2018-2022. All rights reserved."
+  copyright: "Copyright Luke Reed 2018-2023. All rights reserved."
   social:
     github: "lucasreed"
-    twitter: "itslukereed"
     linkedin: "luke-reed-0125"
   # style:
   #   primaryColor: "orangered"
